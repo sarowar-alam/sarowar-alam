@@ -1,42 +1,48 @@
-# Hey, I'm Sarowar 👋
+<h1 align="center">Hey, I'm MD Sarowar 👋</h1>
 
-### Lead DevOps Engineer · Cloud Architect · Automation Enthusiast
+<p align="center">
+  <strong>Lead DevOps Engineer, WPP Production</strong> · Cloud Architect · Automation Enthusiast
+</p>
 
-I design, build, and automate production-grade cloud infrastructure on AWS. With deep expertise in Infrastructure as Code, CI/CD pipelines, containerization, and Kubernetes orchestration, I turn manual processes into reliable, repeatable systems. I'm passionate about cost optimization, security automation, and building platforms that scale.
+<p align="center">
+  I design, build, and automate production-grade cloud infrastructure on AWS.<br>
+  Deep expertise in IaC, CI/CD, containers, and Kubernetes — turning manual processes into reliable, repeatable systems.<br>
+  Passionate about cost optimization, security automation, and building platforms that scale.
+</p>
 
 ---
 
 ## 🚀 Featured Projects
 
-### [3-Tier App — Terraform + Jenkins CI/CD](https://github.com/Md-Sarowar-Alam/3-tier-app-terraform-jenkins)
+### [3-Tier App — Terraform + Jenkins CI/CD](https://github.com/sarowar-alam/3-tier-app-terraform-jenkins)
 Production-ready 3-tier web app provisioned entirely with Terraform modules and deployed via Jenkins pipelines. Includes ALB with HTTPS, Route53 DNS, ACM certificates, and Let's Encrypt automation.  
 `Terraform` `Jenkins` `AWS EC2` `ALB` `Route53` `ACM` `React` `Node.js` `PostgreSQL`
 
-### [ECS Multi-Service Terraform + Jenkins Pipeline](https://github.com/Md-Sarowar-Alam/ecs-multi-service-terraform-jenkins-pipeline)
+### [ECS Multi-Service Terraform + Jenkins Pipeline](https://github.com/sarowar-alam/ecs-multi-service-terraform-jenkins-pipeline)
 IaC for deploying 11 ECS Fargate microservices with Trivy vulnerability scanning, SQS-based autoscaling, ALB host-based routing, and S3-backed Terraform state with service-level isolation.  
 `Terraform` `Jenkins` `AWS ECS Fargate` `ECR` `SQS` `ALB` `Trivy` `Docker`
 
-### [Docker Compose Monitoring Stack](https://github.com/Md-Sarowar-Alam/3-tier-docker-compose-monitoring-ubuntu)
+### [Docker Compose Monitoring Stack](https://github.com/sarowar-alam/3-tier-docker-compose-monitoring-ubuntu)
 Fully containerized 3-tier app with a complete observability stack — Prometheus, Grafana, Loki — and CI/CD via self-hosted GitHub Actions runners on EC2.  
 `Docker Compose` `Prometheus` `Grafana` `Loki` `cAdvisor` `GitHub Actions` `Node.js` `PostgreSQL`
 
-### [ArgoCD GitOps Rolling Deployment on EKS](https://github.com/Md-Sarowar-Alam/argocd-nginx-git-ops-rolling-deployment)
+### [ArgoCD GitOps Rolling Deployment on EKS](https://github.com/sarowar-alam/argocd-nginx-git-ops-rolling-deployment)
 GitOps pipeline using ArgoCD on Amazon EKS demonstrating auto-sync, self-healing, and rolling updates through the Git → ArgoCD → Kubernetes feedback loop.  
 `ArgoCD` `Amazon EKS` `Kubernetes` `GitOps` `NGINX`
 
-### [Automated Certificate Renewal Pipeline](https://github.com/Md-Sarowar-Alam/Automate_Certificate_Renewal)
+### [Automated Certificate Renewal Pipeline](https://github.com/sarowar-alam/Automate_Certificate_Renewal)
 Enterprise SSL/TLS lifecycle automation — Jenkins-orchestrated pipeline handling Let's Encrypt cert creation, ACM import, deployment to IIS/Jenkins/Zabbix servers, and S3+SES distribution.  
 `Jenkins` `PowerShell` `Python` `Let's Encrypt` `AWS ACM` `Route53` `S3` `SES`
 
-### [ECS SQS Zero-Task Autoscaler](https://github.com/Md-Sarowar-Alam/terraform-ecs-sqs-autoscaler)
+### [ECS SQS Zero-Task Autoscaler](https://github.com/sarowar-alam/terraform-ecs-sqs-autoscaler)
 Intelligent autoscaler that scales ECS tasks to zero when idle and back up on demand using Lambda + SQS monitoring — achieving 70–90% cost reduction for variable workloads.  
 `Terraform` `AWS ECS` `SQS` `Lambda` `CloudWatch` `EventBridge`
 
-### [Terraform SQL Server Restore Pipeline](https://github.com/Md-Sarowar-Alam/terraform-sqlserver-restore-pipeline)
+### [Terraform SQL Server Restore Pipeline](https://github.com/sarowar-alam/terraform-sqlserver-restore-pipeline)
 Automated DR validation — spins up ephemeral Windows Server + SQL Server 2022 on EC2, restores cross-account backups, validates databases, sends HTML reports, then tears everything down.  
 `Terraform` `Jenkins` `PowerShell` `SQL Server 2022` `AWS EC2` `S3` `SES`
 
-### [Kubernetes 3-Tier App with ArgoCD](https://github.com/Md-Sarowar-Alam/kubernetes-3tier-app)
+### [Kubernetes 3-Tier App with ArgoCD](https://github.com/sarowar-alam/kubernetes-3tier-app)
 Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on AWS) with GitOps via ArgoCD, StatefulSets for PostgreSQL, and Calico CNI networking.  
 `Kubernetes` `kubeadm` `ArgoCD` `Docker` `Calico CNI` `AWS EC2`
 
@@ -100,9 +106,22 @@ Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on 
 ## 🤝 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarowar/)
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Md-Sarowar-Alam)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarowar-alam)
 [![Email](https://img.shields.io/badge/Email-sarowar%40hotmail.com-%23D14836.svg?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:sarowar@hotmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://sarowar.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://sarowar-alam.github.io/portfolio/)
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sarowar-alam&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarowar-alam&layout=compact&theme=dark&hide_border=true&langs_count=8" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sarowar-alam&theme=dark&hide_border=true" />
+</p>
 
 ---
 
