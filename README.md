@@ -1,16 +1,109 @@
-## Hi there 👋
+# Hey, I'm Sarowar 👋
 
-<!--
-**sarowar-alam/sarowar-alam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Lead DevOps Engineer · Cloud Architect · Automation Enthusiast
 
-Here are some ideas to get you started:
+I design, build, and automate production-grade cloud infrastructure on AWS. With deep expertise in Infrastructure as Code, CI/CD pipelines, containerization, and Kubernetes orchestration, I turn manual processes into reliable, repeatable systems. I'm passionate about cost optimization, security automation, and building platforms that scale.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Featured Projects
+
+### [3-Tier App — Terraform + Jenkins CI/CD](https://github.com/Md-Sarowar-Alam/3-tier-app-terraform-jenkins)
+Production-ready 3-tier web app provisioned entirely with Terraform modules and deployed via Jenkins pipelines. Includes ALB with HTTPS, Route53 DNS, ACM certificates, and Let's Encrypt automation.  
+`Terraform` `Jenkins` `AWS EC2` `ALB` `Route53` `ACM` `React` `Node.js` `PostgreSQL`
+
+### [ECS Multi-Service Terraform + Jenkins Pipeline](https://github.com/Md-Sarowar-Alam/ecs-multi-service-terraform-jenkins-pipeline)
+IaC for deploying 11 ECS Fargate microservices with Trivy vulnerability scanning, SQS-based autoscaling, ALB host-based routing, and S3-backed Terraform state with service-level isolation.  
+`Terraform` `Jenkins` `AWS ECS Fargate` `ECR` `SQS` `ALB` `Trivy` `Docker`
+
+### [Docker Compose Monitoring Stack](https://github.com/Md-Sarowar-Alam/3-tier-docker-compose-monitoring-ubuntu)
+Fully containerized 3-tier app with a complete observability stack — Prometheus, Grafana, Loki — and CI/CD via self-hosted GitHub Actions runners on EC2.  
+`Docker Compose` `Prometheus` `Grafana` `Loki` `cAdvisor` `GitHub Actions` `Node.js` `PostgreSQL`
+
+### [ArgoCD GitOps Rolling Deployment on EKS](https://github.com/Md-Sarowar-Alam/argocd-nginx-git-ops-rolling-deployment)
+GitOps pipeline using ArgoCD on Amazon EKS demonstrating auto-sync, self-healing, and rolling updates through the Git → ArgoCD → Kubernetes feedback loop.  
+`ArgoCD` `Amazon EKS` `Kubernetes` `GitOps` `NGINX`
+
+### [Automated Certificate Renewal Pipeline](https://github.com/Md-Sarowar-Alam/Automate_Certificate_Renewal)
+Enterprise SSL/TLS lifecycle automation — Jenkins-orchestrated pipeline handling Let's Encrypt cert creation, ACM import, deployment to IIS/Jenkins/Zabbix servers, and S3+SES distribution.  
+`Jenkins` `PowerShell` `Python` `Let's Encrypt` `AWS ACM` `Route53` `S3` `SES`
+
+### [ECS SQS Zero-Task Autoscaler](https://github.com/Md-Sarowar-Alam/terraform-ecs-sqs-autoscaler)
+Intelligent autoscaler that scales ECS tasks to zero when idle and back up on demand using Lambda + SQS monitoring — achieving 70–90% cost reduction for variable workloads.  
+`Terraform` `AWS ECS` `SQS` `Lambda` `CloudWatch` `EventBridge`
+
+### [Terraform SQL Server Restore Pipeline](https://github.com/Md-Sarowar-Alam/terraform-sqlserver-restore-pipeline)
+Automated DR validation — spins up ephemeral Windows Server + SQL Server 2022 on EC2, restores cross-account backups, validates databases, sends HTML reports, then tears everything down.  
+`Terraform` `Jenkins` `PowerShell` `SQL Server 2022` `AWS EC2` `S3` `SES`
+
+### [Kubernetes 3-Tier App with ArgoCD](https://github.com/Md-Sarowar-Alam/kubernetes-3tier-app)
+Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on AWS) with GitOps via ArgoCD, StatefulSets for PostgreSQL, and Calico CNI networking.  
+`Kubernetes` `kubeadm` `ArgoCD` `Docker` `Calico CNI` `AWS EC2`
+
+---
+
+## 🧠 Skills & Expertise
+
+| Domain | Technologies |
+|---|---|
+| **Cloud (AWS)** | EC2, ECS Fargate, EKS, Lambda, S3, CloudFront, RDS, DynamoDB, SQS, ALB, Route53, ACM, IAM, SES, CloudWatch, VPC, Auto Scaling |
+| **Infrastructure as Code** | Terraform (modules, workspaces, remote state), AWS CDK |
+| **CI/CD** | Jenkins (Groovy DSL, shared libraries), GitHub Actions (self-hosted runners), ArgoCD (GitOps) |
+| **Containers** | Docker, Docker Compose, AWS ECR, multi-stage builds |
+| **Orchestration** | Kubernetes (kubeadm, EKS, Deployments, StatefulSets, Ingress, PVC), ArgoCD |
+| **Monitoring & Observability** | Prometheus, Grafana, Loki, Promtail, cAdvisor, node-exporter, CloudWatch |
+| **Security & Compliance** | Trivy image scanning, Security Group auditing, cross-account IAM, SSL/TLS automation |
+| **Scripting & Languages** | Python (Boto3), PowerShell, Bash, Node.js/Express, TypeScript |
+| **Web & Databases** | React, Vite, Nginx, PostgreSQL, SQL Server, DynamoDB |
+
+---
+
+## 🛠 Tech Stack
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-web-services&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+
+---
+
+## 📊 What I'm Currently Working On
+
+- Building production-grade **ECS Fargate** platforms with SQS-driven autoscaling and zero-idle cost optimization
+- Automating enterprise infrastructure with **Terraform modules** and **Jenkins pipelines**
+- Implementing **GitOps** workflows using ArgoCD on Kubernetes
+- Developing AWS security and compliance automation tools (snapshot auditing, SG port scanning)
+
+---
+
+## 🌱 Learning & Improving
+
+- Advanced Kubernetes patterns — service mesh (Istio), policy engines (OPA/Kyverno)
+- Platform Engineering — internal developer platforms and self-service infrastructure
+- Observability at scale — distributed tracing with OpenTelemetry
+- AWS cost optimization strategies and FinOps practices
+
+---
+
+## 🤝 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarowar/)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Md-Sarowar-Alam)
+[![Email](https://img.shields.io/badge/Email-sarowar%40hotmail.com-%23D14836.svg?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:sarowar@hotmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://sarowar.com)
+
+---
+
+<p align="center"><i>"Automate everything. Document what you can't."</i></p>
