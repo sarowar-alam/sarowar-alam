@@ -1,13 +1,16 @@
-<h1 align="center">Hey, I'm MD Sarowar 👋</h1>
+<h1 align="center">Hi, I'm Md Sarowar Alam 👋</h1>
 
 <p align="center">
-  <strong>Lead DevOps Engineer, WPP Production</strong> · Cloud Architect · Automation Enthusiast
+  <strong>Lead DevOps Engineer @ Hogarth Worldwide (WPP Production)</strong><br>
+  Cloud Architect &nbsp;·&nbsp; Automation Engineer &nbsp;·&nbsp; DevOps Instructor<br>
+  📍 Dhaka, Bangladesh &nbsp;·&nbsp; 20+ years in IT
 </p>
 
 <p align="center">
   I design, build, and automate production-grade cloud infrastructure on AWS.<br>
-  Deep expertise in IaC, CI/CD, containers, and Kubernetes — turning manual processes into reliable, repeatable systems.<br>
-  Passionate about cost optimization, security automation, and building platforms that scale.
+  From bare-metal sysadmin to cloud-native DevOps — I turn manual, high-risk processes<br>
+  into resilient, repeatable, fully automated systems.<br>
+  I also teach AWS, Kubernetes, Jenkins &amp; DevOps at <a href="https://ostad.app/instructor/209627">Ostad</a>.
 </p>
 
 ---
@@ -19,7 +22,7 @@ Production-ready 3-tier web app provisioned entirely with Terraform modules and 
 `Terraform` `Jenkins` `AWS EC2` `ALB` `Route53` `ACM` `React` `Node.js` `PostgreSQL`
 
 ### [ECS Multi-Service Terraform + Jenkins Pipeline](https://github.com/sarowar-alam/ecs-multi-service-terraform-jenkins-pipeline)
-IaC for deploying 11 ECS Fargate microservices with Trivy vulnerability scanning, SQS-based autoscaling, ALB host-based routing, and S3-backed Terraform state with service-level isolation.  
+Consolidated 11 independent ECS pipelines into one JSON-driven, config-managed platform with Trivy scanning gates, SQS-based autoscaling, ALB host routing, and per-service Terraform state isolation. **91% complexity reduction.**  
 `Terraform` `Jenkins` `AWS ECS Fargate` `ECR` `SQS` `ALB` `Trivy` `Docker`
 
 ### [Docker Compose Monitoring Stack](https://github.com/sarowar-alam/3-tier-docker-compose-monitoring-ubuntu)
@@ -30,17 +33,21 @@ Fully containerized 3-tier app with a complete observability stack — Prometheu
 GitOps pipeline using ArgoCD on Amazon EKS demonstrating auto-sync, self-healing, and rolling updates through the Git → ArgoCD → Kubernetes feedback loop.  
 `ArgoCD` `Amazon EKS` `Kubernetes` `GitOps` `NGINX`
 
-### [Automated Certificate Renewal Pipeline](https://github.com/sarowar-alam/Automate_Certificate_Renewal)
-Enterprise SSL/TLS lifecycle automation — Jenkins-orchestrated pipeline handling Let's Encrypt cert creation, ACM import, deployment to IIS/Jenkins/Zabbix servers, and S3+SES distribution.  
+### [Enterprise SSL/TLS Certificate Automation](https://github.com/sarowar-alam/Automate_Certificate_Renewal)
+End-to-end certificate lifecycle — Let's Encrypt DNS validation, ACM import, multi-format deployment (PFX/JKS/PEM) to IIS, Jenkins, and Zabbix, S3+SES secure distribution with presigned URLs, and audit reporting. **~8 hours/quarter → fully unattended.**  
 `Jenkins` `PowerShell` `Python` `Let's Encrypt` `AWS ACM` `Route53` `S3` `SES`
 
 ### [ECS SQS Zero-Task Autoscaler](https://github.com/sarowar-alam/terraform-ecs-sqs-autoscaler)
 Intelligent autoscaler that scales ECS tasks to zero when idle and back up on demand using Lambda + SQS monitoring — achieving 70–90% cost reduction for variable workloads.  
 `Terraform` `AWS ECS` `SQS` `Lambda` `CloudWatch` `EventBridge`
 
-### [Terraform SQL Server Restore Pipeline](https://github.com/sarowar-alam/terraform-sqlserver-restore-pipeline)
-Automated DR validation — spins up ephemeral Windows Server + SQL Server 2022 on EC2, restores cross-account backups, validates databases, sends HTML reports, then tears everything down.  
-`Terraform` `Jenkins` `PowerShell` `SQL Server 2022` `AWS EC2` `S3` `SES`
+### [Automated Database DR Validation Pipeline](https://github.com/sarowar-alam/terraform-sqlserver-restore-pipeline)
+Weekly automated DR proof — Terraform provisions ephemeral Windows/SQL Server, cross-account backup transfer, PowerShell restore via WinRM, automated data comparison, HTML reports, and full teardown. **Verification time: days → 30 minutes.**  
+`Terraform` `Jenkins` `PowerShell` `SQL Server 2022` `AWS EC2` `S3` `SES` `WinRM`
+
+### [Production Hotfix Deployment Automation](https://github.com/sarowar-alam/jenkins-production-hotfix-automation)
+Jenkins pipeline deploying hotfixes to multiple Windows IIS production servers in parallel — automatic pre-deployment backups, selective binary/config deployment, S3 artifact management, and rollback. **Deployment time reduced by 75%.**  
+`Jenkins` `PowerShell` `AWS S3` `IIS` `Windows Server`
 
 ### [Kubernetes 3-Tier App with ArgoCD](https://github.com/sarowar-alam/kubernetes-3tier-app)
 Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on AWS) with GitOps via ArgoCD, StatefulSets for PostgreSQL, and Calico CNI networking.  
@@ -52,15 +59,16 @@ Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on 
 
 | Domain | Technologies |
 |---|---|
-| **Cloud (AWS)** | EC2, ECS Fargate, EKS, Lambda, S3, CloudFront, RDS, DynamoDB, SQS, ALB, Route53, ACM, IAM, SES, CloudWatch, VPC, Auto Scaling |
+| **Cloud (AWS)** | EC2, ECS Fargate, EKS, Lambda, S3, CloudFront, RDS, DynamoDB, SQS, ALB, Route53, ACM, IAM, SES, CloudWatch, VPC, Auto Scaling, PrivateLink, VPC Peering |
 | **Infrastructure as Code** | Terraform (modules, workspaces, remote state), AWS CDK |
 | **CI/CD** | Jenkins (Groovy DSL, shared libraries), GitHub Actions (self-hosted runners), ArgoCD (GitOps) |
 | **Containers** | Docker, Docker Compose, AWS ECR, multi-stage builds |
-| **Orchestration** | Kubernetes (kubeadm, EKS, Deployments, StatefulSets, Ingress, PVC), ArgoCD |
-| **Monitoring & Observability** | Prometheus, Grafana, Loki, Promtail, cAdvisor, node-exporter, CloudWatch |
-| **Security & Compliance** | Trivy image scanning, Security Group auditing, cross-account IAM, SSL/TLS automation |
-| **Scripting & Languages** | Python (Boto3), PowerShell, Bash, Node.js/Express, TypeScript |
-| **Web & Databases** | React, Vite, Nginx, PostgreSQL, SQL Server, DynamoDB |
+| **Orchestration** | Kubernetes (kubeadm, EKS, Deployments, StatefulSets, Ingress, PVC), ArgoCD, Calico CNI |
+| **Monitoring & Observability** | Prometheus, Grafana, Loki, Promtail, cAdvisor, node-exporter, Zabbix, CloudWatch |
+| **Configuration Management** | Ansible |
+| **Security & Compliance** | Trivy image scanning, Security Group auditing, cross-account IAM (STS AssumeRole), SSL/TLS lifecycle automation |
+| **Scripting & Languages** | Python (Boto3) · 10+ yrs, PowerShell · 15+ yrs, Bash, Node.js/Express, TypeScript |
+| **Web & Databases** | React, Vite, Nginx, PostgreSQL, SQL Server, DynamoDB, MySQL |
 
 ---
 
@@ -71,6 +79,7 @@ Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on 
 ![Jenkins](https://img.shields.io/badge/Jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
@@ -81,6 +90,7 @@ Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+![Windows Server](https://img.shields.io/badge/Windows_Server-%230078D6.svg?style=for-the-badge&logo=windows&logoColor=white)
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 
 ---
@@ -107,8 +117,10 @@ Production-deployed 3-tier app on a self-managed Kubernetes cluster (kubeadm on 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarowar/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarowar-alam)
-[![Email](https://img.shields.io/badge/Email-sarowar%40hotmail.com-%23D14836.svg?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:sarowar@hotmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://sarowar-alam.github.io/portfolio/)
+[![Ostad](https://img.shields.io/badge/Ostad_Instructor-%23F97316.svg?style=for-the-badge&logo=airplayvideo&logoColor=white)](https://ostad.app/instructor/209627)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/sarowar.alam)
+[![Email](https://img.shields.io/badge/Email-sarowar%40hotmail.com-%23D14836.svg?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:sarowar@hotmail.com)
 
 ---
 
