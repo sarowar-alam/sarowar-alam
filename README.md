@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Md Sarowar Alam 👋</h1>
+<h1 align="center">Hi, I'm MD Sarowar Alam </h1>
 
 <p align="center">
   <strong>Lead DevOps Engineer @ Hogarth Worldwide (WPP Production)</strong><br>
@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### [3-Tier App — Terraform + Jenkins CI/CD](https://github.com/sarowar-alam/3-tier-app-terraform-jenkins)
 Production-ready 3-tier web app provisioned entirely with Terraform modules and deployed via Jenkins pipelines. Includes ALB with HTTPS, Route53 DNS, ACM certificates, and Let's Encrypt automation.  
